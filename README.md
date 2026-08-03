@@ -18,6 +18,7 @@
 | Текст | Год | Язык | Статус |
 |---|---|---|---|
 | [О. О. Розенберг. Проблемы буддийской философии](texts/rozenberg-1918-problemy-buddiyskoy-filosofii/) | 1918 | ru | общественное достояние |
+| [О. О. Розенберг. О миросозерцании современного буддизма на Дальнем Востоке](texts/rozenberg-1919-o-mirosozercanii/) | 1919 | ru | общественное достояние |
 
 ## Принципы
 
@@ -74,6 +75,7 @@ E. E. Obermiller and others. No continuity is claimed, only respect for the subj
 | Text | Year | Language | Status |
 |---|---|---|---|
 | [O. O. Rosenberg, *Problems of Buddhist Philosophy*](texts/rozenberg-1918-problemy-buddiyskoy-filosofii/) | 1918 | Russian | public domain |
+| [O. O. Rosenberg, *On the Worldview of Contemporary Buddhism in the Far East*](texts/rozenberg-1919-o-mirosozercanii/) | 1919 | Russian | public domain |
 
 ### Principles
 
