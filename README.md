@@ -1,5 +1,7 @@
 # Bibliotheca Buddhica
 
+*Public-domain Buddhist studies texts, properly typeset as epub. [English below](#in-english).*
+
 Тексты по буддизму и буддийской философии, вычитанные и нормально свёрстанные в epub.
 
 Большинство классических работ по буддологии лежит в сети в виде набора HTML-страниц
@@ -51,3 +53,56 @@ python3 build.py
 - Тексты — общественное достояние, статус указан у каждого.
 - Скрипты сборки — MIT, см. [LICENSE](LICENSE).
 - Обложки — CC0, используйте как хотите.
+
+---
+
+## In English
+
+Classic works of Buddhist studies, mostly in Russian, cleaned up and typeset as readable
+epub files.
+
+Much of this literature exists online only as a pile of HTML pages with broken encodings,
+footnotes that link nowhere and layout from 1999. It is unreadable on a phone or an e-reader.
+This repository holds the same texts, assembled so that they can actually be read.
+
+The name refers to *Bibliotheca Buddhica*, the series the Imperial Academy of Sciences began
+publishing in St. Petersburg in 1897 under S. F. Oldenburg, which printed F. I. Stcherbatsky,
+E. E. Obermiller and others. No continuity is claimed, only respect for the subject.
+
+### Contents
+
+| Text | Year | Language | Status |
+|---|---|---|---|
+| [O. O. Rosenberg, *Problems of Buddhist Philosophy*](texts/rozenberg-1918-problemy-buddiyskoy-filosofii/) | 1918 | Russian | public domain |
+
+### Principles
+
+- **Free texts only.** Public domain, or with the rightsholder's permission. The legal
+  status is stated in each text's README and in the colophon inside the file itself.
+- **Footnotes must work.** That is the entire reason this exists: a reference to a note
+  takes you to the note, not into the void.
+- **Reproducible builds.** Every text ships a `build/build.py` that fetches the source,
+  strips the markup and assembles the epub. Nothing is hand-patched inside the binary.
+- **Sources are always credited.** Whoever typed and proofread the text did the harder part
+  of the work.
+
+### Building
+
+Requires `pandoc` (3.x) and Python with Pillow.
+
+```sh
+cd texts/<name>/build
+python3 build.py
+```
+
+Fetched pages are cached in `build/cache/`, so re-running does not hammer anyone's server.
+
+### Licensing
+
+- Texts: public domain; the specific basis is documented per text.
+- Build scripts: MIT, see [LICENSE](LICENSE).
+- Cover art: CC0, do as you like with it.
+
+A note on jurisdiction: public-domain determinations here are made for Russia, the EU and
+the United States, and are stated explicitly per text. If you are reading from somewhere
+else, check your local term of protection.
