@@ -1,0 +1,5 @@
+**/build/cache/
+**/build/clean/
+__pycache__/
+*.pyc
+.DS_Store
